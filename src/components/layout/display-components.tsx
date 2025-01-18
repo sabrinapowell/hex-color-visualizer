@@ -54,8 +54,8 @@ export default function DisplayComponents({ colors }: { colors: string[] }) {
           </div>
           <div className="flex justify-between">
             <button style={{ backgroundColor: namedColors.quaternary_color }} className="px-2 py-1 text-white rounded">Button 1</button>
-            <button style={{ backgroundColor: namedColors.quinary_color }} className="px-2 py-1 text-white rounded">Button 1</button>
-            <button style={{ backgroundColor: namedColors.senary_color }} className="px-2 py-1 text-white rounded">Button 1</button>
+            <button style={{ backgroundColor: namedColors.quinary_color }} className="px-2 py-1 text-white rounded">Button 2</button>
+            <button style={{ backgroundColor: namedColors.senary_color }} className="px-2 py-1 text-white rounded">Button 3</button>
           </div>
         </div>
       </div>
