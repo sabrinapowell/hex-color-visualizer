@@ -84,7 +84,7 @@ export default function ColorInput({ colors, setColors }: { colors: string[], se
                         {...provided.draggableProps}
                         className="flex items-center gap-2 pr-2 text-sm border-2 border-brand-gray rounded-md"
                       >
-                        <span {...provided.dragHandleProps} className="px-2 text-sm text-white bg-brand-gray cursor-grab">☰</span>
+                        <span {...provided.dragHandleProps} className="px-2 text-sm text-white bg-brand-gray cursor-grab" title="Drag to Reorder">☰</span>
                         <span className="w-[60px]">{color}</span>
                         <button
                           className={clsx("place-content-end text-sm hover:text-brand-error", colors.length === 1 ? "cursor-not-allowed" : "cursor-pointer")}

@@ -23,7 +23,7 @@ function ShowColor({ color }: { color: string }) {
 
   return (
     <div className={clsx("w-[100px] h-[100px] overflow-clip rounded-full flex place-content-center items-end")} style={{ backgroundColor: color }}>
-      <div className="text-white w-full text-center text-xs bg-gray-500/50 px-2 py-1 cursor-pointer" onClick={handleCopyColor}>
+      <div className="text-white w-full text-center text-xs bg-gray-500/50 px-2 pt-1 pb-[6px] cursor-pointer" onClick={handleCopyColor} title="Copy to Clipboard">
         {
           isCopied ? "Copied!" : color
         }
