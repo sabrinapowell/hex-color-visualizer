@@ -8,7 +8,7 @@ export default function Home() {
       <div className="flex flex-col gap-6 min-w-[840px] max-w-[840px] mx-auto">
         <Header />
         <DisplayRows />
-        <div className="fixed top-0 right-4 bg-brand-hover hover:bg-brand-hover-secondary text-white rounded-full">
+        <div className="fixed top-0 right-4 bg-brand-hover hover:bg-brand-main text-white rounded-full">
           <DeveloperTag />
         </div>
       </div>
