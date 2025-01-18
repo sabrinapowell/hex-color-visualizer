@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Hex Code Visualizer
 
-## Getting Started
+Hex Code Visualizer is a simple, intuitive tool designed to help developers and creatives easily compare, customize, and organize color palettes. Built with **Next.js**, **TypeScript**, and **TailwindCSS**, it offers a live preview to visualize how selected colors would look on a page.
 
-First, run the development server:
+## Features
+- **Add Colors to Palette**: Users can add up to **6 colors** to their palette.
+- **Drag and Reorder**: Rearrange colors by dragging and dropping.
+- **Copy Hex Codes**: Easily copy hex codes directly from the palette.
+- **Live Preview**: Visualize how colors would look when applied to common web components, including:
+  - Navbar
+  - Header
+  - Subheading
+  - Body Text
+  - Buttons
+  - Input Fields
+- **Dynamic Fallbacks**: Automatically assign fallback colors if the palette has fewer than 6 colors.
+- **Compare Color Palettes**: Users can compare 2 color palettes at a time.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Technologies Used
+- **Frontend:** Next.js, CSS (Tailwind CSS), TypeScript, Lucide-React icons
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## How to Use
+1. Replace existing colors from starter palette with the colors you want to use
+2. Drag and drop the colors to reorder them
+3. Click the hex codes of the colors to copy them to your clipboard
+4. Click the Compare Palettes button to get access to a second palette to compare
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/sabrinapowell/hex-color-visualizer.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd hex-color-visualizer
+   ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   # or
+   pnpm dev
+   # or
+   bun dev
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Future Enhancements
+- Add light/dark mode toggle for live preview.
+- Allow users to save and share palettes.
+- Allow users to customize which colors are used for each component in the live preview.
+- Generate accessibility contrast reports.
 
-## Learn More
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-To learn more about Next.js, take a look at the following resources:
+## Contributing
+Contributions are welcome! Please fork the repository and submit a pull request with your improvements.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Acknowledgments
+- Icons by [Lucide React](https://lucide.dev/)
+- Styling by [Tailwind CSS](https://tailwindcss.com/)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Thank you for using **Hex Code Visualizer**! If you enjoy the project, please consider giving it a ⭐ on GitHub. 😊
